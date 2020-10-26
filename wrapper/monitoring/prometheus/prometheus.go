@@ -72,6 +72,7 @@ func NewHandlerWrapper(opts ...server.Option) server.HandlerWrapper {
 
 //	prometheus.DefaultGatherer = reg
 //	prometheus.DefaultRegisterer = wrapreg
+//louwei
 
     prometheus.MustRegister(
         opsCounter,
